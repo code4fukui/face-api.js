@@ -1,12 +1,14 @@
 # face-api.js
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 **JavaScript face recognition API for the browser and nodejs implemented on top of tensorflow.js core ([tensorflow/tfjs-core](https://github.com/tensorflow/tfjs))**
 
 ## Demo
 [Click here for Live Demos!](https://justadudewhohacks.github.io/face-api.js/)
 
 ## Features
-- Face Recognition
+- Face Detection
 - Face Landmark Detection
 - Face Expression Recognition
 - Age Estimation and Gender Recognition
@@ -39,20 +41,8 @@ const { Canvas, Image, ImageData } = canvas;
 faceapi.env.monkeyPatch({ Canvas, Image, ImageData });
 ```
 
-## Getting Started
-1. Load the required models:
-```javascript
-await faceapi.nets.ssdMobilenetv1.loadFromUri('/models')
-```
-2. Use the high-level API for tasks like face detection, landmark detection, and recognition.
-
-## Models
-The library provides the following models:
-- Face Detection
-- Face Landmark Detection
-- Face Recognition
-- Face Expression Recognition
-- Age Estimation and Gender Recognition
-
 ## API Documentation
 [View the API Documentation](https://justadudewhohacks.github.io/face-api.js/docs/globals.html)
+
+## License
+MIT
