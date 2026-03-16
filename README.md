@@ -45,4 +45,4 @@ faceapi.env.monkeyPatch({ Canvas, Image, ImageData });
 [View the API Documentation](https://justadudewhohacks.github.io/face-api.js/docs/globals.html)
 
 ## License
-MIT
+MIT License — see [LICENSE](LICENSE).
